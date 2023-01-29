@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Jacques+Francois&family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
+
+* {
+    box-sizing: content-box;
+  }
+  html{
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;    
+    }
+ body{
+    background-image: url(https://files.adventistas.org/noticias/es/2019/01/28151222/a-justica-do-reino-dos-ceus-versus-a-justica-dos-escribas-e-fariseus.jpg);
+    } 
+   
+.nav-enlace{
+    display: inline-block;
+    background: rgba(95, 184, 139, 0.658);
+    color: blanchedalmond;
+    padding: 5px 30px;
+    border-radius: 30px 10px 0px 200px;
+    text-decoration: none;
+   }
+
+.nav-enlace:hover{
+    background: rgba(77, 131, 86, 0.199);
+}
+
+nav{
+    background: rgb(15, 78, 78);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 30px 10px 0px 200px;
+}
+
+.botonMenu{
+    background:  rgba(95, 184, 139, 0.658);
+    color: blanchedalmond;
+    padding: 10px 0;
+    border-bottom: 2px solid;
+    border: 5px solid #1C6EA4;
+    border-radius: 30px 10px 0px 200px;
+    display: none;
+}
+ 
+.header {
+    text-align: center;
+    box-sizing: border-box;
+    color: blanchedalmond;
+    padding: 65px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgba(95, 184, 139, 0.658);
+    border-radius: 30px 0px 20px 230px;
+   }
+
+   .header i{
+    min-width: 350px;
+    }
+
+  
+ 
+.separa{
+    padding: 10px;
+    border-bottom-width: 5px;
+    border-bottom-style: outset;
+    border-bottom-color: rgba(95, 184, 139, 0.658);
+    border-radius: 0px 0px 20px 200px;
+}
+
+
+  .center{
+    padding: 30px;
+    display: table-cell;
+    text-align: center;
+    color: blanchedalmond;
+    border-bottom-width: 5px;
+    border-bottom-style: outset;
+    border-bottom-color: rgba(95, 184, 139, 0.658);
+    border-radius: 0px 0px 20px 200px;
+  }
+
+  
+.botonRedes{
+    min-width: 350px;
+    display: flex;
+    justify-content: space-around;
+    }
+
+.botonRedes a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(95, 184, 139, 0.658);
+    color: black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+.botonRedes a:hover{
+    transform: scale(1.2);
+}
+
+.formacion{
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+.experienciaL{
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+.conocimiento{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+@media (max-width:600px){
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body{
+        background-image: url(https://www.ubp.edu.ar/wp-content/uploads/2017/03/abogacia.jpg);
+        } 
+
+.header{
+    text-align: right;
+    color: rgba(136, 5, 12, 0.692);
+     }
+    
+.header i{
+    width: 50%;
+    
+}
+ 
+.center{
+    color: rgba(136, 5, 12, 0.692);
+    }
+
+div.botonRedes{
+    display: none;
+    }
+
+nav{
+    flex-direction: column;
+    }
+
+.nav-enlace{
+    margin: center;
+    padding: 5px 30px;
+    border-radius: 10px 5px 0px 100px;
+    margin: 10px 0;
+    }
+
+.desaparece{
+        display: none;
+    }
+
+.botonMenu{
+    display: inline-block;
+    }
+  
+.formacion{
+        text-align: center;
+        color: rgba(136, 5, 12, 0.692);
+}
+
+.experienciaL{
+    text-align: center;
+    color: rgba(136, 5, 12, 0.692);
+}
+
+
+
+.conocimiento{
+        color: rgba(136, 5, 12, 0.692);
+    }
+
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    
+}
